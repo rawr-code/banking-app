@@ -1,4 +1,4 @@
-import { getDeposits, getSwaps, getWithdraws } from '../services/data'
+import { getDeposits, getSwaps, getWithdraws } from '../services/api'
 import { DEPOSITS_ACTIONS } from '../store/reducers/deposits'
 import { WITHDRAWS_ACTIONS } from '../store/reducers/withdraws'
 import { SWAPS_ACTIONS } from '../store/reducers/swaps'
